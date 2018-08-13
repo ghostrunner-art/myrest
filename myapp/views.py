@@ -5,7 +5,8 @@ from rest_framework.views import APIView
 import json
 
 class Dingdan(APIView):#这里的restframework框架的APIView是继承django.views里面的View
-    def get(self,request,*args,**kwargs):
+    def get(self,request,*args,**kwargs):   #这里是CBV方式的get请求的固定格式
+        self.dispatch()
         ret = {
             'id':100,
             'name':'hanmeimei',
