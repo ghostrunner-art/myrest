@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from myapp import views
+from myrestapp import views
 
 urlpatterns = [
-    url(r'^dingdan/',views.Dingdan.as_view()),
+    url(r'^api/v1/auth/$',views.AuthView.as_view()),
     url(r'^admin/', admin.site.urls),
 ]
