@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'myrestapp',
+    'djangobase.apps.DjangobaseConfig',#注册应用的另一个中写法，上面是一种
 ]
 
 MIDDLEWARE = [

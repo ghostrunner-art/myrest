@@ -15,9 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from myrestapp import views
+from myrestapp.views import AuthView
+from djangobase import views
+
 
 urlpatterns = [
-    url(r'^api/v1/auth/$',views.AuthView.as_view()),
+    url(r'^api/v1/auth/$',AuthView.as_view()),#.as_View()是CBV的固定格式
+    url(r'^',views.baseone),
     url(r'^admin/', admin.site.urls),
 ]
