@@ -88,7 +88,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="59" />
     <option name="y" value="472" />
     <option name="width" value="1775" />
@@ -204,7 +204,7 @@
       <window_info anchor="bottom" id="Database Changes" order="3" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="5" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49946696" visible="true" weight="0.3278867" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49946696" weight="0.3278867" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.33877996" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28144988" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
