@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问题</title>
+</head>
+<body>
+
+{% for que in ques %}
+    <form action="">
+    <h2>{{ que.wenti }}</h2>
+    {{ que.daan1 }}
+        <input type="radio" name="daan1" value="{{ que.daan1 }}" />
+    <br>
+    {{ que.daan2 }}
+        <input type="radio" name="daan1" value="{{ que.daan2 }}" />
+    <br>
+    {{ que.daan3 }}
+        <input type="radio" name="daan1" value="{{ que.daan3 }}" />
+    <br>
+    {{ que.daan4 }}
+        <input type="radio" name="daan1" value="{{ que.daan4 }}" />
+    <br><br>
+        <input type="submit">
+    <br>
+    </form>
+{% endfor %}
+
+
+
+</body>
+</html>

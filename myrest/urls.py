@@ -20,7 +20,7 @@ from djangobase import views
 
 
 urlpatterns = [
-    url(r'^api/v1/auth/$',AuthView.as_view()),#.as_View()是CBV的固定格式
+    url(r'^api/v1/auth/$',AuthView.as_view()), #.as_View()是CBV的固定格式
     url(r'^',views.baseone),
     url(r'^admin/', admin.site.urls),
 ]
