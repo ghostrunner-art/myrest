@@ -4,8 +4,8 @@ from djangobase import models
 
 # Create your views here.
 def baseone(request):
-    req = request.POST.get('daan1',None)
-    print(req)
+    # req = request.POST.get('daan1',None)
+    # print(req)
 
     que=models.Que.objects.all()
 
