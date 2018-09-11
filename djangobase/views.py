@@ -10,3 +10,7 @@ def baseone(request):
     que=models.Que.objects.all()
 
     return render(request,'wenti_zheli.html',{'ques':que})
+
+def jishu(request):
+    a = models.Jishu.objects.all()
+    return render(request,'jishu.html',{'jishu':a})
